@@ -142,7 +142,7 @@
 				<PropertyValue name="AutoListParams">true</PropertyValue>
 			</ToolsOptionsSubCategory>
 			<ToolsOptionsSubCategory name="CSharp-Specific" RegisteredName="CSharp-Specific" PackageName="Visual C# Language Service Package">
-				<PropertyValue name="NewLines_QueryExpression_EachClause">1</PropertyValue>
+				<PropertyValue name="NewLines_QueryExpression_EachClause">0</PropertyValue>
 				<PropertyValue name="Space_Normalize">0</PropertyValue>
 				<PropertyValue name="Space_AroundBinaryOperator">1</PropertyValue>
 				<PropertyValue name="Formatting_TriggerOnPaste">1</PropertyValue>
@@ -160,7 +160,7 @@
 				<PropertyValue name="EncapsulateField_PreviewReferenceChanges">0</PropertyValue>
 				<PropertyValue name="DelayBeforeShowingErrors">1500</PropertyValue>
 				<PropertyValue name="CollapseRegionBlocksOnOpen">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_Method">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_Method">0</PropertyValue>
 				<PropertyValue name="HighlightReferences">1</PropertyValue>
 				<PropertyValue name="RefactorNotifyRenameEnabled">1</PropertyValue>
 				<PropertyValue name="OnlyScanFirstTypeInFileForDesignerAttribute">0</PropertyValue>
@@ -173,8 +173,8 @@
 				<PropertyValue name="CodeDefinitionWindow_DocumentationComment_IndentOffset">2</PropertyValue>
 				<PropertyValue name="Rename_Comments">1</PropertyValue>
 				<PropertyValue name="Squiggles_SemanticAnalysis">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_ControlFlow">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_AnonymousMethod">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_ControlFlow">0</PropertyValue>
+				<PropertyValue name="NewLines_Braces_AnonymousMethod">0</PropertyValue>
 				<PropertyValue name="Space_WithinOtherParentheses">0</PropertyValue>
 				<PropertyValue name="BringUpOnIdentifier">1</PropertyValue>
 				<PropertyValue name="RemoveParameters_PreviewReferenceChanges">1</PropertyValue>
@@ -196,21 +196,21 @@
 				<PropertyValue name="ShowSnippets">1</PropertyValue>
 				<PropertyValue name="BraceMatchingRectangle">1</PropertyValue>
 				<PropertyValue name="NewLines_AnonymousTypeInitializer_EachMember">1</PropertyValue>
-				<PropertyValue name="NewLines_Keywords_Catch">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_ObjectInitializer">1</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Catch">0</PropertyValue>
+				<PropertyValue name="NewLines_Braces_ObjectInitializer">0</PropertyValue>
 				<PropertyValue name="NewLines_Braces_ArrayInitializer">0</PropertyValue>
 				<PropertyValue name="Space_WithinExpressionParentheses">0</PropertyValue>
 				<PropertyValue name="Space_InControlFlowConstruct">1</PropertyValue>
 				<PropertyValue name="Formatting_TriggerOnStatementCompletion">1</PropertyValue>
 				<PropertyValue name="CodeDefinitionWindow_DocumentationComment_WrapLength">80</PropertyValue>
-				<PropertyValue name="NewLines_Keywords_Finally">1</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Finally">0</PropertyValue>
 				<PropertyValue name="Space_BetweenEmptyMethodDeclarationParentheses">0</PropertyValue>
 				<PropertyValue name="Indent_UnindentLabels">0</PropertyValue>
 				<PropertyValue name="SmartTagEnabled">1</PropertyValue>
 				<PropertyValue name="SortUsings">1</PropertyValue>
 				<PropertyValue name="Rename_Strings">0</PropertyValue>
 				<PropertyValue name="NewLines_ObjectInitializer_EachMember">1</PropertyValue>
-				<PropertyValue name="NewLines_Keywords_Else">1</PropertyValue>
+				<PropertyValue name="NewLines_Keywords_Else">0</PropertyValue>
 				<PropertyValue name="TimeSliceForQuickSearchCaching">50</PropertyValue>
 				<PropertyValue name="EnableProgressDialogOnWaitForBackground">1</PropertyValue>
 				<PropertyValue name="Space_WithinMethodDeclarationParentheses">0</PropertyValue>
@@ -227,7 +227,7 @@
 				<PropertyValue name="Space_AfterDot">0</PropertyValue>
 				<PropertyValue name="UnboundItemSmartTagEnabled">1</PropertyValue>
 				<PropertyValue name="AutoComment">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_Type">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_Type">0</PropertyValue>
 				<PropertyValue name="Space_AfterLambdaArrow">1</PropertyValue>
 				<PropertyValue name="ImplementInterfaceSmartTagEnabled">1</PropertyValue>
 				<PropertyValue name="BringUpOnPartial">1</PropertyValue>
@@ -235,12 +235,12 @@
 				<PropertyValue name="EncapsulateField_SearchInStrings">0</PropertyValue>
 				<PropertyValue name="TimeSliceForQuickSearchSearching">50</PropertyValue>
 				<PropertyValue name="EnterOutliningModeOnOpen">0</PropertyValue>
-				<PropertyValue name="NewLines_Braces_LambdaExpressionBody">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_LambdaExpressionBody">0</PropertyValue>
 				<PropertyValue name="Space_WithinSquares">0</PropertyValue>
 				<PropertyValue name="Space_BeforeLambdaArrow">1</PropertyValue>
 				<PropertyValue name="ShowHiddenItems">0</PropertyValue>
 				<PropertyValue name="Squiggles">1</PropertyValue>
-				<PropertyValue name="NewLines_Braces_AnonymousTypeInitializer">1</PropertyValue>
+				<PropertyValue name="NewLines_Braces_AnonymousTypeInitializer">0</PropertyValue>
 				<PropertyValue name="Space_WithinCastParentheses">0</PropertyValue>
 				<PropertyValue name="Space_AfterSemicolonsInForStatement">1</PropertyValue>
 				<PropertyValue name="Indent_CaseContents">1</PropertyValue>
@@ -626,20 +626,7 @@
 			</ToolsOptionsSubCategory>
 		</ToolsOptionsCategory>
 	</ToolsOptions>
-	<Category name="Code Analysis" Category="{533A534C-AD06-4B18-BBBC-BFD7C74F58CE}" Package="{72391CE3-743A-4a55-8927-4217541F6517}" RegisteredName="Code Analysis" PackageName="StanPackage"/>
 	<Category name="Database Tools" RegisteredName="Database Tools">
-		<Category name="Data Compare" Category="{B25F97C5-F845-458F-853B-3970D61FE4B9}" Package="{481A3758-A6D0-43E0-B1B8-4428BE962F8E}" RegisteredName="Data Compare" PackageName="VSTS for Database Professionals Sql Server">
-			<PropertyValue name="DataSettings">Default</PropertyValue>
-			<PropertyValue name="MaxCharsPerColumn">65535</PropertyValue>
-		</Category>
-		<Category name="Data Generator" Category="{7E055B73-82C8-4C8E-981F-FE58F889C213}" Package="{068E2583-0872-403B-AF4C-6C2A8F2D8C3E}" RegisteredName="Data Generator" PackageName="VSTS for Database Professionals">
-			<PropertyValue name="DataSinks">&lt;Dictionary /&gt;</PropertyValue>
-			<PropertyValue name="PopulateRowCount">50</PropertyValue>
-			<PropertyValue name="PreviewCount">50</PropertyValue>
-			<PropertyValue name="Seed">5</PropertyValue>
-			<PropertyValue name="SqlTimeout">60</PropertyValue>
-			<PropertyValue name="TableErrorThreshold">0</PropertyValue>
-		</Category>
 		<Category name="Schema Compare" RegisteredName="Schema Compare">
 			<Category name="Microsoft SQL Server 2005" Category="{FEA72D7C-B46E-47dc-9E8E-915ADC603B4E}" Package="{481A3758-A6D0-43E0-B1B8-4428BE962F8E}" RegisteredName="Microsoft SQL Server 2005" PackageName="VSTS for Database Professionals Sql Server">
 				<PropertyValue name="GeneralOptionsForCompare">000000000000010001000100000001</PropertyValue>
@@ -655,6 +642,18 @@
 				<PropertyValue name="SevenSetOptionsBitArray">1111101</PropertyValue>
 				<PropertyValue name="UseSourceCollation">True</PropertyValue>
 			</Category>
+		</Category>
+		<Category name="Data Compare" Category="{B25F97C5-F845-458F-853B-3970D61FE4B9}" Package="{481A3758-A6D0-43E0-B1B8-4428BE962F8E}" RegisteredName="Data Compare" PackageName="VSTS for Database Professionals Sql Server">
+			<PropertyValue name="DataSettings">Default</PropertyValue>
+			<PropertyValue name="MaxCharsPerColumn">65535</PropertyValue>
+		</Category>
+		<Category name="Data Generator" Category="{7E055B73-82C8-4C8E-981F-FE58F889C213}" Package="{068E2583-0872-403B-AF4C-6C2A8F2D8C3E}" RegisteredName="Data Generator" PackageName="VSTS for Database Professionals">
+			<PropertyValue name="DataSinks">&lt;Dictionary /&gt;</PropertyValue>
+			<PropertyValue name="PopulateRowCount">50</PropertyValue>
+			<PropertyValue name="PreviewCount">50</PropertyValue>
+			<PropertyValue name="Seed">5</PropertyValue>
+			<PropertyValue name="SqlTimeout">60</PropertyValue>
+			<PropertyValue name="TableErrorThreshold">0</PropertyValue>
 		</Category>
 	</Category>
 	<Category name="Environment_Group" RegisteredName="Environment_Group">
@@ -805,7 +804,7 @@
 						<Column Name="Bitmap" Width="17" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="ProviderKnowsOrder" Width="19" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Checked" Width="28" Visibility="Invisible" SortPriority="-1" SortDirection="Up"/>
-						<Column Name="Description" Width="1040" Visibility="Visible" SortPriority="0" SortDirection="Up"/>
+						<Column Name="Description" Width="32" Visibility="Visible" SortPriority="0" SortDirection="Up"/>
 						<Column Name="File" Width="403" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Line" Width="93" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Column" Width="109" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
@@ -951,7 +950,7 @@
 			<PropertyValue name="HideFindAfterMatchFound">0</PropertyValue>
 			<PropertyValue name="HitReplaced">0</PropertyValue>
 			<PropertyValue name="Syntax">Wildcard</PropertyValue>
-			<PropertyValue name="In Files Pane Display Options">8448</PropertyValue>
+			<PropertyValue name="Quick Pane Display Options">32</PropertyValue>
 			<PropertyValue name="NumberOfScopes">0</PropertyValue>
 		</Category>
 		<Category name="Environment_FindSymbol" Category="{C93260BC-0C07-484a-8188-6F4763BD7FD4}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FindSymbol" PackageName="Visual Studio Environment Package">
@@ -961,6 +960,86 @@
 			<PropertyValue name="Type">2</PropertyValue>
 			<PropertyValue name="SelectedScope">{B1BA9461-FC54-45B3-A484-CB6DD0B95C94}</PropertyValue>
 			<PropertyValue name="SelectedScopeSubScope">0</PropertyValue>
+		</Category>
+		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+			<PropertyValue name="Version">2</PropertyValue>
+			<FontsAndColors Version="2.0">
+				<Categories>
+					<Category GUID="{40660F54-80FA-4375-89A3-8D06AA954EBA}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{5C48B2CB-0366-4FBF-9786-0BB37E945687}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+							<Item Name="Current List Location" Foreground="0x00A3DBFF" Background="0x01000007" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+							<Item Name="Current List Location" Foreground="0x00A3DBFF" Background="0x01000007" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{9E632E6E-D786-4F9A-8D3E-B9398836C784}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Selected Text" Foreground="0x00000000" Background="0x0003E48A" BoldFont="No"/>
+							<Item Name="Line Numbers" Foreground="0x00FFFFFF" Background="0x00808080" BoldFont="No"/>
+							<Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x00CCE0DB" BoldFont="Yes"/>
+							<Item Name="Identifier" Foreground="0x00000080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Keyword" Foreground="0x00800000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Number" Foreground="0x02000000" Background="0x00FFFFE6" BoldFont="No"/>
+							<Item Name="String" Foreground="0x00808000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types" Foreground="0x000053A6" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Warning" Foreground="0x000080FF" Background="0x02000000" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{A9A5637F-B2A8-422E-8FB5-DFB4625F0111}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{CE2ECED5-C21C-464C-9B45-15E10E9F9EF9}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{F7B7B222-E186-48DF-A5EE-174E8129891B}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+				</Categories>
+			</FontsAndColors>
 		</Category>
 		<Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
 			<Version>10.0.0.0</Version>
@@ -1038,18 +1117,11 @@
 					<RemoveShortcut Command="Debug.AttachtoProcess" Scope="Global">Ctrl+A, Ctrl+P</RemoveShortcut>
 					<RemoveShortcut Command="Edit.BreakLine" Scope="Text Editor">Shift+Enter</RemoveShortcut>
 					<RemoveShortcut Command="Debug.ParallelTasks" Scope="Global">Ctrl+Shift+D, K</RemoveShortcut>
-					<RemoveShortcut Command="Edit.MoveLineUp" Scope="Global">Ctrl+Shift+Alt+Up Arrow, Ctrl+Shift+Alt+Up Arrow</RemoveShortcut>
-					<RemoveShortcut Command="Edit.MoveLineDown" Scope="Global">Ctrl+Shift+Alt+Down Arrow, Ctrl+Shift+Alt+Down Arrow</RemoveShortcut>
 					<Shortcut Command="Build.BuildSelection" Scope="Global">F6</Shortcut>
 					<Shortcut Command="File.Close" Scope="Global">Ctrl+W</Shortcut>
 					<Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+Shift+Alt+W</Shortcut>
 					<Shortcut Command="EditorContextMenus.CodeWindow.OrganizeUsings.RemoveAndSort" Scope="Global">Ctrl+O, Ctrl+U</Shortcut>
 					<Shortcut Command="Edit.SelectAll" Scope="Global">Ctrl+A</Shortcut>
-					<Shortcut Command="Edit.MoveLineUp" Scope="Text Editor">Alt+Up Arrow</Shortcut>
-					<Shortcut Command="Edit.MoveLineDown" Scope="Text Editor">Alt+Down Arrow</Shortcut>
-					<Shortcut Command="RedGate.SQLPrompt.VSUI.Connect.RefreshCache" Scope="Global">Ctrl+Shift+D</Shortcut>
-					<Shortcut Command="RedGate.SQLPrompt.VSUI.Connect.LayOutSQLMainMenu" Scope="Global">Ctrl+K, Ctrl+Y</Shortcut>
-					<Shortcut Command="RedGate.SQLPrompt.VSUI.Connect.LayOutSQLMainMenu" Scope="Global">Ctrl+B, Ctrl+L</Shortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
@@ -1057,7 +1129,6 @@
 			<CommandBars Version="05072811">
 				<DefaultCustomizations/>
 				<UserCustomizations>
-					<add_group Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200"/>
 					<add_toolbar Menu="{19872127-B0D9-11D2-8792-00C04F7971A5}:00000001" Name="&amp;SQL Prompt 5" MenuType="menu"/>
 					<add_toolbar Menu="{19872127-B0D9-11D2-8792-00C04F7971A5}:00000002" Name="&amp;Help" MenuType="menu"/>
 					<add_toolbar Menu="{19872127-B0D9-11D2-8792-00C04F7971A5}:00000003" Name="Serial &amp;Number" MenuType="menu"/>
@@ -1090,23 +1161,13 @@
 					<modify_toolbar Menu="{068E2583-0872-403B-AF4C-6C2A8F2D8C3E}:00003203" Visibility="auto" FullScreen="hide" Dock="top" Row="2" FloatRectangle="0,0,692,24" DockRectangle="1,0,692,24"/>
 					<modify_toolbar Menu="{BAE1FC45-5315-4F89-B7AD-D1B63126D32A}:00005202" Visibility="hide" FullScreen="hide" Dock="top" Row="2" FloatRectangle="0,0,1065,24" DockRectangle="4,0,1065,24"/>
 					<modify_toolbar Menu="{161ABEEC-5930-4CD8-A5A6-069F6BEB75B1}:00000773" Visibility="hide" FullScreen="hide" Dock="top" Row="3" DockRectangle="799,51,1299,77"/>
+					<modify_toolbar Menu="{E0A00075-5177-4C9C-9A08-BB8367EA8829}:00005202" Visibility="auto" FullScreen="hide" Dock="top" Row="2" DockRectangle="0,51,568,77"/>
 					<modify_toolbar Menu="{5EA68EEA-275A-41E6-B68F-C3220B9E1F41}:00001002" Visibility="auto" FullScreen="hide" Dock="top" Row="1" DockRectangle="1527,25,1757,51"/>
 					<modify_toolbar Menu="{5EA68EEA-275A-41E6-B68F-C3220B9E1F41}:00001003" Visibility="hide" FullScreen="hide" Dock="top" Row="2" DockRectangle="0,51,322,77"/>
-					<modify_toolbar Menu="{E0A00075-5177-4C9C-9A08-BB8367EA8829}:00005202" Visibility="auto" FullScreen="hide" Dock="top" Row="2" DockRectangle="0,51,568,77"/>
 					<add Cmd="{5EFC7975-14BC-11CF-9B2B-00AA00573819}:000000d5" CmdPri="02008001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000205" GroupPri="04000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000402"/>
 					<add Cmd="{205D520D-9BE7-492B-8BC2-9B8153A491C2}:00000403" CmdPri="00e80001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:000001c4" GroupPri="00100000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000040d"/>
-					<add CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445">RedGate.Reflector.Addin.Connect10.Reflector_FakeGoToDefinition</add>
-					<add CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446">RedGate.Reflector.Addin.Connect10.Reflector_FakeGoToDefinition</add>
-					<add CmdPri="40000001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.CircularReferenceAnalyzer</add>
-					<add CmdPri="40008001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.AnalyzeHubs</add>
-					<add CmdPri="40010001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.UnreferencedNodeAnalyzer</add>
 					<modify Cmd="{5EFC7975-14BC-11CF-9B2B-00AA00573819}:000002ac" CmdPri="03000000" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000174" GroupPri="09000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000001" Name="Solution Configurations"/>
 					<modify Cmd="{161ABEEC-5930-4CD8-A5A6-069F6BEB75B1}:0000010d" CmdPri="00200000" Group="{161ABEEC-5930-4CD8-A5A6-069F6BEB75B1}:00001040" GroupPri="ffff0000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000418" BeginGroup="true"/>
-					<modify CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445" Name="Go to Decompiled Definition">RedGate.Reflector.Addin.Connect10.Reflector_FakeGoToDefinition</modify>
-					<modify CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446" Name="Go to Decompiled Definition">RedGate.Reflector.Addin.Connect10.Reflector_FakeGoToDefinition</modify>
-					<modify CmdPri="40000001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Circular References">OtherContextMenus.DirectedGraphContextMenu.Analyzers.CircularReferenceAnalyzer</modify>
-					<modify CmdPri="40008001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Find Hubs">OtherContextMenus.DirectedGraphContextMenu.Analyzers.AnalyzeHubs</modify>
-					<modify CmdPri="40010001" Group="{9ED7351B-6E6F-4FC2-ADBB-FAF26E129622}:00000202" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Unreferenced Nodes">OtherContextMenus.DirectedGraphContextMenu.Analyzers.UnreferencedNodeAnalyzer</modify>
 					<modify Cmd="{8A876EF1-D6CA-45F1-9F2A-8E26153BDB37}:00000105" CmdPri="00020000" Group="{BD359A86-BF88-4C4E-A7D2-6CDDA36C3B79}:00001130" GroupPri="00100000" Menu="{BD359A86-BF88-4C4E-A7D2-6CDDA36C3B79}:00001100" BeginGroup="true"/>
 				</UserCustomizations>
 			</CommandBars>
@@ -1154,7 +1215,7 @@
 		</Category>
 		<Category name="Environment_SimplifiedToolsOptions" Category="{13BEDEE6-9051-4809-B9E3-2EEC749EB15A}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_SimplifiedToolsOptions" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="SupportsSimpleToolsOptions">false</PropertyValue>
-			<PropertyValue name="ShowingAllPages">false</PropertyValue>
+			<PropertyValue name="ShowingAllPages">true</PropertyValue>
 			<PropertyValue name="ShowFlatList">false</PropertyValue>
 		</Category>
 		<Category name="Environment_StartPage" Category="{255FE6D3-A0AE-4076-A509-D581B2BE4F9E}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_StartPage" PackageName="Visual Studio Environment Package">
@@ -1177,7 +1238,7 @@
 					<Columns>
 						<Column Name="Priority" Width="20" Visibility="Visible" SortPriority="0" SortDirection="Up"/>
 						<Column Name="Bitmap" Width="17" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
-						<Column Name="ProviderKnowsOrder" Width="17" Visibility="Invisible" SortPriority="2" SortDirection="Up"/>
+						<Column Name="ProviderKnowsOrder" Width="19" Visibility="Invisible" SortPriority="2" SortDirection="Up"/>
 						<Column Name="Checked" Width="28" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Description" Width="250" Visibility="Visible" SortPriority="7" SortDirection="Up"/>
 						<Column Name="File" Width="120" Visibility="Visible" SortPriority="4" SortDirection="Up"/>
@@ -1261,193 +1322,175 @@
 			<PropertyValue name="Tab4.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab4.RecordType">4</PropertyValue>
 			<PropertyValue name="Tab4.Position">7</PropertyValue>
-			<PropertyValue name="Tab5.ID">{73422BED-2F83-4587-8A50-5B2BBE45F4B1}-#1000</PropertyValue>
-			<PropertyValue name="Tab5.Name">SharePoint Controls</PropertyValue>
+			<PropertyValue name="Tab5.ID">ToolboxCategory_WinOEActivities_v3.5</PropertyValue>
+			<PropertyValue name="Tab5.Name">Windows Workflow v3.5</PropertyValue>
 			<PropertyValue name="Tab5.View">0</PropertyValue>
 			<PropertyValue name="Tab5.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab5.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab5.Position">8</PropertyValue>
-			<PropertyValue name="Tab6.ID">ToolboxCategory_WinOEActivities_v3.5</PropertyValue>
-			<PropertyValue name="Tab6.Name">Windows Workflow v3.5</PropertyValue>
+			<PropertyValue name="Tab5.Position">9</PropertyValue>
+			<PropertyValue name="Tab6.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Tab6.Name">Data </PropertyValue>
 			<PropertyValue name="Tab6.View">0</PropertyValue>
 			<PropertyValue name="Tab6.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab6.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab6.Position">9</PropertyValue>
-			<PropertyValue name="Tab7.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Tab7.Name">Data </PropertyValue>
+			<PropertyValue name="Tab6.Position">10</PropertyValue>
+			<PropertyValue name="Tab7.ID">Flowchart</PropertyValue>
+			<PropertyValue name="Tab7.Name">Flowchart</PropertyValue>
 			<PropertyValue name="Tab7.View">0</PropertyValue>
 			<PropertyValue name="Tab7.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab7.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab7.Position">10</PropertyValue>
-			<PropertyValue name="Tab8.ID">Flowchart</PropertyValue>
-			<PropertyValue name="Tab8.Name">Flowchart</PropertyValue>
+			<PropertyValue name="Tab7.Position">11</PropertyValue>
+			<PropertyValue name="Tab8.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1106</PropertyValue>
+			<PropertyValue name="Tab8.Name">All Windows Forms</PropertyValue>
 			<PropertyValue name="Tab8.View">0</PropertyValue>
 			<PropertyValue name="Tab8.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab8.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab8.Position">11</PropertyValue>
-			<PropertyValue name="Tab9.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1106</PropertyValue>
-			<PropertyValue name="Tab9.Name">All Windows Forms</PropertyValue>
+			<PropertyValue name="Tab8.Position">12</PropertyValue>
+			<PropertyValue name="Tab9.ID">XAML Controls</PropertyValue>
+			<PropertyValue name="Tab9.Name">All WPF Controls</PropertyValue>
 			<PropertyValue name="Tab9.View">0</PropertyValue>
 			<PropertyValue name="Tab9.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab9.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab9.Position">12</PropertyValue>
-			<PropertyValue name="Tab10.ID">SharePoint Workflow</PropertyValue>
-			<PropertyValue name="Tab10.Name">SharePoint Workflow</PropertyValue>
+			<PropertyValue name="Tab9.Position">14</PropertyValue>
+			<PropertyValue name="Tab10.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1073</PropertyValue>
+			<PropertyValue name="Tab10.Name">Validation</PropertyValue>
 			<PropertyValue name="Tab10.View">0</PropertyValue>
 			<PropertyValue name="Tab10.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab10.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab10.Position">13</PropertyValue>
-			<PropertyValue name="Tab11.ID">XAML Controls</PropertyValue>
-			<PropertyValue name="Tab11.Name">All WPF Controls</PropertyValue>
+			<PropertyValue name="Tab10.Position">15</PropertyValue>
+			<PropertyValue name="Tab11.ID">Messaging</PropertyValue>
+			<PropertyValue name="Tab11.Name">Messaging</PropertyValue>
 			<PropertyValue name="Tab11.View">0</PropertyValue>
 			<PropertyValue name="Tab11.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab11.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab11.Position">14</PropertyValue>
-			<PropertyValue name="Tab12.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1073</PropertyValue>
-			<PropertyValue name="Tab12.Name">Validation</PropertyValue>
+			<PropertyValue name="Tab11.Position">16</PropertyValue>
+			<PropertyValue name="Tab12.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1107</PropertyValue>
+			<PropertyValue name="Tab12.Name">Common Controls</PropertyValue>
 			<PropertyValue name="Tab12.View">0</PropertyValue>
 			<PropertyValue name="Tab12.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab12.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab12.Position">15</PropertyValue>
-			<PropertyValue name="Tab13.ID">Messaging</PropertyValue>
-			<PropertyValue name="Tab13.Name">Messaging</PropertyValue>
+			<PropertyValue name="Tab12.Position">17</PropertyValue>
+			<PropertyValue name="Tab13.ID">Silverlight Common</PropertyValue>
+			<PropertyValue name="Tab13.Name">Common Silverlight Controls</PropertyValue>
 			<PropertyValue name="Tab13.View">0</PropertyValue>
 			<PropertyValue name="Tab13.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab13.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab13.Position">16</PropertyValue>
-			<PropertyValue name="Tab14.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1107</PropertyValue>
-			<PropertyValue name="Tab14.Name">Common Controls</PropertyValue>
+			<PropertyValue name="Tab13.Position">18</PropertyValue>
+			<PropertyValue name="Tab14.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
+			<PropertyValue name="Tab14.Name">Navigation</PropertyValue>
 			<PropertyValue name="Tab14.View">0</PropertyValue>
 			<PropertyValue name="Tab14.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab14.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab14.Position">17</PropertyValue>
-			<PropertyValue name="Tab15.ID">Silverlight Common</PropertyValue>
-			<PropertyValue name="Tab15.Name">Common Silverlight Controls</PropertyValue>
+			<PropertyValue name="Tab14.Position">19</PropertyValue>
+			<PropertyValue name="Tab15.ID">Runtime</PropertyValue>
+			<PropertyValue name="Tab15.Name">Runtime</PropertyValue>
 			<PropertyValue name="Tab15.View">0</PropertyValue>
 			<PropertyValue name="Tab15.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab15.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab15.Position">18</PropertyValue>
-			<PropertyValue name="Tab16.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
-			<PropertyValue name="Tab16.Name">Navigation</PropertyValue>
+			<PropertyValue name="Tab15.Position">20</PropertyValue>
+			<PropertyValue name="Tab16.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1102</PropertyValue>
+			<PropertyValue name="Tab16.Name">Containers</PropertyValue>
 			<PropertyValue name="Tab16.View">0</PropertyValue>
 			<PropertyValue name="Tab16.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab16.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab16.Position">19</PropertyValue>
-			<PropertyValue name="Tab17.ID">Runtime</PropertyValue>
-			<PropertyValue name="Tab17.Name">Runtime</PropertyValue>
+			<PropertyValue name="Tab16.Position">21</PropertyValue>
+			<PropertyValue name="Tab17.ID">Silverlight Controls</PropertyValue>
+			<PropertyValue name="Tab17.Name">All Silverlight Controls</PropertyValue>
 			<PropertyValue name="Tab17.View">0</PropertyValue>
 			<PropertyValue name="Tab17.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab17.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab17.Position">20</PropertyValue>
-			<PropertyValue name="Tab18.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1102</PropertyValue>
-			<PropertyValue name="Tab18.Name">Containers</PropertyValue>
+			<PropertyValue name="Tab17.Position">22</PropertyValue>
+			<PropertyValue name="Tab18.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1075</PropertyValue>
+			<PropertyValue name="Tab18.Name">Login</PropertyValue>
 			<PropertyValue name="Tab18.View">0</PropertyValue>
 			<PropertyValue name="Tab18.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab18.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab18.Position">21</PropertyValue>
-			<PropertyValue name="Tab19.ID">Silverlight Controls</PropertyValue>
-			<PropertyValue name="Tab19.Name">All Silverlight Controls</PropertyValue>
+			<PropertyValue name="Tab18.Position">26</PropertyValue>
+			<PropertyValue name="Tab19.ID">Primitives</PropertyValue>
+			<PropertyValue name="Tab19.Name">Primitives</PropertyValue>
 			<PropertyValue name="Tab19.View">0</PropertyValue>
 			<PropertyValue name="Tab19.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab19.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab19.Position">22</PropertyValue>
-			<PropertyValue name="Tab20.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1075</PropertyValue>
-			<PropertyValue name="Tab20.Name">Login</PropertyValue>
+			<PropertyValue name="Tab19.Position">27</PropertyValue>
+			<PropertyValue name="Tab20.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1103</PropertyValue>
+			<PropertyValue name="Tab20.Name">Menus &amp; Toolbars</PropertyValue>
 			<PropertyValue name="Tab20.View">0</PropertyValue>
 			<PropertyValue name="Tab20.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab20.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab20.Position">26</PropertyValue>
-			<PropertyValue name="Tab21.ID">Primitives</PropertyValue>
-			<PropertyValue name="Tab21.Name">Primitives</PropertyValue>
+			<PropertyValue name="Tab20.Position">28</PropertyValue>
+			<PropertyValue name="Tab21.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1076</PropertyValue>
+			<PropertyValue name="Tab21.Name">WebParts</PropertyValue>
 			<PropertyValue name="Tab21.View">0</PropertyValue>
 			<PropertyValue name="Tab21.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab21.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab21.Position">27</PropertyValue>
-			<PropertyValue name="Tab22.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1103</PropertyValue>
-			<PropertyValue name="Tab22.Name">Menus &amp; Toolbars</PropertyValue>
+			<PropertyValue name="Tab21.Position">29</PropertyValue>
+			<PropertyValue name="Tab22.ID">Transaction</PropertyValue>
+			<PropertyValue name="Tab22.Name">Transaction</PropertyValue>
 			<PropertyValue name="Tab22.View">0</PropertyValue>
 			<PropertyValue name="Tab22.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab22.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab22.Position">28</PropertyValue>
-			<PropertyValue name="Tab23.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1076</PropertyValue>
-			<PropertyValue name="Tab23.Name">WebParts</PropertyValue>
+			<PropertyValue name="Tab22.Position">30</PropertyValue>
+			<PropertyValue name="Tab23.ID">Data</PropertyValue>
+			<PropertyValue name="Tab23.Name">Data</PropertyValue>
 			<PropertyValue name="Tab23.View">0</PropertyValue>
 			<PropertyValue name="Tab23.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab23.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab23.Position">29</PropertyValue>
-			<PropertyValue name="Tab24.ID">Transaction</PropertyValue>
-			<PropertyValue name="Tab24.Name">Transaction</PropertyValue>
+			<PropertyValue name="Tab23.Position">31</PropertyValue>
+			<PropertyValue name="Tab24.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1077</PropertyValue>
+			<PropertyValue name="Tab24.Name">Mobile Web Forms</PropertyValue>
 			<PropertyValue name="Tab24.View">0</PropertyValue>
 			<PropertyValue name="Tab24.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab24.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab24.Position">30</PropertyValue>
-			<PropertyValue name="Tab25.ID">Data</PropertyValue>
-			<PropertyValue name="Tab25.Name">Data</PropertyValue>
+			<PropertyValue name="Tab24.Position">32</PropertyValue>
+			<PropertyValue name="Tab25.ID">Collection</PropertyValue>
+			<PropertyValue name="Tab25.Name">Collection</PropertyValue>
 			<PropertyValue name="Tab25.View">0</PropertyValue>
 			<PropertyValue name="Tab25.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab25.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab25.Position">31</PropertyValue>
-			<PropertyValue name="Tab26.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1077</PropertyValue>
-			<PropertyValue name="Tab26.Name">Mobile Web Forms</PropertyValue>
+			<PropertyValue name="Tab25.Position">33</PropertyValue>
+			<PropertyValue name="Tab26.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1101</PropertyValue>
+			<PropertyValue name="Tab26.Name">Components</PropertyValue>
 			<PropertyValue name="Tab26.View">0</PropertyValue>
 			<PropertyValue name="Tab26.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab26.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab26.Position">32</PropertyValue>
-			<PropertyValue name="Tab27.ID">Collection</PropertyValue>
-			<PropertyValue name="Tab27.Name">Collection</PropertyValue>
+			<PropertyValue name="Tab26.Position">34</PropertyValue>
+			<PropertyValue name="Tab27.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Tab27.Name">AJAX Extensions</PropertyValue>
 			<PropertyValue name="Tab27.View">0</PropertyValue>
 			<PropertyValue name="Tab27.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab27.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab27.Position">33</PropertyValue>
-			<PropertyValue name="Tab28.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1101</PropertyValue>
-			<PropertyValue name="Tab28.Name">Components</PropertyValue>
+			<PropertyValue name="Tab27.Position">35</PropertyValue>
+			<PropertyValue name="Tab28.ID">Error Handling</PropertyValue>
+			<PropertyValue name="Tab28.Name">Error Handling</PropertyValue>
 			<PropertyValue name="Tab28.View">0</PropertyValue>
 			<PropertyValue name="Tab28.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab28.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab28.Position">34</PropertyValue>
-			<PropertyValue name="Tab29.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Tab29.Name">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Tab28.Position">37</PropertyValue>
+			<PropertyValue name="Tab29.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1104</PropertyValue>
+			<PropertyValue name="Tab29.Name">Printing</PropertyValue>
 			<PropertyValue name="Tab29.View">0</PropertyValue>
 			<PropertyValue name="Tab29.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab29.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab29.Position">35</PropertyValue>
-			<PropertyValue name="Tab30.ID">Microsoft.VisualStudio.SharePoint.Designers.BusinessDataConnectivity.BusinessDataConnectivityToolboxTab</PropertyValue>
-			<PropertyValue name="Tab30.Name">BusinessDataConnectivity</PropertyValue>
+			<PropertyValue name="Tab29.Position">38</PropertyValue>
+			<PropertyValue name="Tab30.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1079</PropertyValue>
+			<PropertyValue name="Tab30.Name">Dynamic Data</PropertyValue>
 			<PropertyValue name="Tab30.View">0</PropertyValue>
 			<PropertyValue name="Tab30.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab30.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab30.Position">36</PropertyValue>
-			<PropertyValue name="Tab31.ID">Error Handling</PropertyValue>
-			<PropertyValue name="Tab31.Name">Error Handling</PropertyValue>
+			<PropertyValue name="Tab30.Position">39</PropertyValue>
+			<PropertyValue name="Tab31.ID">Migration</PropertyValue>
+			<PropertyValue name="Tab31.Name">Migration</PropertyValue>
 			<PropertyValue name="Tab31.View">0</PropertyValue>
 			<PropertyValue name="Tab31.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab31.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab31.Position">37</PropertyValue>
-			<PropertyValue name="Tab32.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1104</PropertyValue>
-			<PropertyValue name="Tab32.Name">Printing</PropertyValue>
+			<PropertyValue name="Tab31.Position">40</PropertyValue>
+			<PropertyValue name="Tab32.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1105</PropertyValue>
+			<PropertyValue name="Tab32.Name">Dialogs</PropertyValue>
 			<PropertyValue name="Tab32.View">0</PropertyValue>
 			<PropertyValue name="Tab32.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab32.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab32.Position">38</PropertyValue>
-			<PropertyValue name="Tab33.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1079</PropertyValue>
-			<PropertyValue name="Tab33.Name">Dynamic Data</PropertyValue>
-			<PropertyValue name="Tab33.View">0</PropertyValue>
-			<PropertyValue name="Tab33.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Tab33.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab33.Position">39</PropertyValue>
-			<PropertyValue name="Tab34.ID">Migration</PropertyValue>
-			<PropertyValue name="Tab34.Name">Migration</PropertyValue>
-			<PropertyValue name="Tab34.View">0</PropertyValue>
-			<PropertyValue name="Tab34.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Tab34.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab34.Position">40</PropertyValue>
-			<PropertyValue name="Tab35.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1105</PropertyValue>
-			<PropertyValue name="Tab35.Name">Dialogs</PropertyValue>
-			<PropertyValue name="Tab35.View">0</PropertyValue>
-			<PropertyValue name="Tab35.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Tab35.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab35.Position">41</PropertyValue>
-			<PropertyValue name="TabCount">36</PropertyValue>
+			<PropertyValue name="Tab32.Position">41</PropertyValue>
+			<PropertyValue name="TabCount">33</PropertyValue>
 			<PropertyValue name="DeletedItem0.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem0.Name">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem0.TabID">Clipboard Ring</PropertyValue>
@@ -1498,329 +1541,329 @@
 			<PropertyValue name="DeletedItem11.Tab">Word Controls</PropertyValue>
 			<PropertyValue name="DeletedItem12.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem12.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem12.TabID">Common WPF Controls</PropertyValue>
+			<PropertyValue name="DeletedItem12.TabID">XAML Common</PropertyValue>
 			<PropertyValue name="DeletedItem12.Tab">Common WPF Controls</PropertyValue>
 			<PropertyValue name="DeletedItem13.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem13.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem13.TabID">All WPF Controls</PropertyValue>
+			<PropertyValue name="DeletedItem13.TabID">XAML Controls</PropertyValue>
 			<PropertyValue name="DeletedItem13.Tab">All WPF Controls</PropertyValue>
 			<PropertyValue name="DeletedItem14.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem14.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem14.TabID">Common Silverlight Controls</PropertyValue>
+			<PropertyValue name="DeletedItem14.TabID">Silverlight Common</PropertyValue>
 			<PropertyValue name="DeletedItem14.Tab">Common Silverlight Controls</PropertyValue>
 			<PropertyValue name="DeletedItemCount">15</PropertyValue>
-			<PropertyValue name="Item0.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item0.ID">System.Windows.Controls.RichTextBox, System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</PropertyValue>
-			<PropertyValue name="Item0.Name">RichTextBox</PropertyValue>
+			<PropertyValue name="Item0.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
+			<PropertyValue name="Item0.Name">ScriptManager</PropertyValue>
 			<PropertyValue name="Item0.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item0.Tab">All Silverlight Controls</PropertyValue>
-			<PropertyValue name="Item0.TabID">Silverlight Controls</PropertyValue>
-			<PropertyValue name="Item0.OriginalTabID">Silverlight Controls</PropertyValue>
-			<PropertyValue name="Item0.OriginalTab">All Silverlight Controls</PropertyValue>
-			<PropertyValue name="Item0.RecordType">8</PropertyValue>
-			<PropertyValue name="Item0.Position">26</PropertyValue>
-			<PropertyValue name="Item1.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item1.ID">Microsoft.Office.Tools.Ribbon.RibbonBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item1.Name">Box</PropertyValue>
+			<PropertyValue name="Item0.Tab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item0.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item0.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item0.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item0.RecordType">1</PropertyValue>
+			<PropertyValue name="Item0.Position">1</PropertyValue>
+			<PropertyValue name="Item1.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
+			<PropertyValue name="Item1.Name">ScriptManagerProxy</PropertyValue>
 			<PropertyValue name="Item1.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item1.Tab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item1.TabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item1.OriginalTabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item1.OriginalTab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item1.RecordType">8</PropertyValue>
-			<PropertyValue name="Item1.Position">1</PropertyValue>
-			<PropertyValue name="Item2.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item2.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item2.Name">Button</PropertyValue>
+			<PropertyValue name="Item1.Tab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item1.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item1.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item1.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item1.RecordType">1</PropertyValue>
+			<PropertyValue name="Item1.Position">2</PropertyValue>
+			<PropertyValue name="Item2.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
+			<PropertyValue name="Item2.Name">Timer</PropertyValue>
 			<PropertyValue name="Item2.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item2.Tab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item2.TabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item2.OriginalTabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item2.OriginalTab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item2.RecordType">8</PropertyValue>
+			<PropertyValue name="Item2.Tab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item2.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item2.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item2.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item2.RecordType">1</PropertyValue>
 			<PropertyValue name="Item2.Position">3</PropertyValue>
-			<PropertyValue name="Item3.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item3.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item3.Name">ButtonGroup</PropertyValue>
+			<PropertyValue name="Item3.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
+			<PropertyValue name="Item3.Name">UpdatePanel</PropertyValue>
 			<PropertyValue name="Item3.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item3.Tab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item3.TabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item3.OriginalTabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item3.OriginalTab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item3.RecordType">8</PropertyValue>
-			<PropertyValue name="Item3.Position">5</PropertyValue>
-			<PropertyValue name="Item4.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item4.ID">Microsoft.Office.Tools.Ribbon.RibbonCheckBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item4.Name">CheckBox</PropertyValue>
+			<PropertyValue name="Item3.Tab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item3.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item3.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item3.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item3.RecordType">1</PropertyValue>
+			<PropertyValue name="Item3.Position">4</PropertyValue>
+			<PropertyValue name="Item4.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
+			<PropertyValue name="Item4.Name">UpdateProgress</PropertyValue>
 			<PropertyValue name="Item4.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item4.Tab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item4.TabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item4.OriginalTabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item4.OriginalTab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item4.RecordType">8</PropertyValue>
-			<PropertyValue name="Item4.Position">7</PropertyValue>
+			<PropertyValue name="Item4.Tab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item4.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item4.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Item4.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item4.RecordType">1</PropertyValue>
+			<PropertyValue name="Item4.Position">5</PropertyValue>
 			<PropertyValue name="Item5.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item5.ID">Microsoft.Office.Tools.Ribbon.RibbonComboBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item5.Name">ComboBox</PropertyValue>
+			<PropertyValue name="Item5.ID">System.Windows.Controls.RichTextBox, System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e</PropertyValue>
+			<PropertyValue name="Item5.Name">RichTextBox</PropertyValue>
 			<PropertyValue name="Item5.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item5.Tab">Office Ribbon Controls</PropertyValue>
-			<PropertyValue name="Item5.TabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item5.OriginalTabID">MSVSTORibbonV10</PropertyValue>
-			<PropertyValue name="Item5.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item5.Tab">All Silverlight Controls</PropertyValue>
+			<PropertyValue name="Item5.TabID">Silverlight Controls</PropertyValue>
+			<PropertyValue name="Item5.OriginalTabID">Silverlight Controls</PropertyValue>
+			<PropertyValue name="Item5.OriginalTab">All Silverlight Controls</PropertyValue>
 			<PropertyValue name="Item5.RecordType">8</PropertyValue>
-			<PropertyValue name="Item5.Position">9</PropertyValue>
+			<PropertyValue name="Item5.Position">26</PropertyValue>
 			<PropertyValue name="Item6.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item6.ID">Microsoft.Office.Tools.Ribbon.RibbonDropDownImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item6.Name">DropDown</PropertyValue>
+			<PropertyValue name="Item6.ID">Microsoft.Office.Tools.Ribbon.RibbonBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item6.Name">Box</PropertyValue>
 			<PropertyValue name="Item6.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item6.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item6.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item6.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item6.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item6.RecordType">8</PropertyValue>
-			<PropertyValue name="Item6.Position">11</PropertyValue>
+			<PropertyValue name="Item6.Position">1</PropertyValue>
 			<PropertyValue name="Item7.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item7.ID">Microsoft.Office.Tools.Ribbon.RibbonEditBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item7.Name">EditBox</PropertyValue>
+			<PropertyValue name="Item7.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item7.Name">Button</PropertyValue>
 			<PropertyValue name="Item7.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item7.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item7.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item7.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item7.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item7.RecordType">8</PropertyValue>
-			<PropertyValue name="Item7.Position">13</PropertyValue>
+			<PropertyValue name="Item7.Position">3</PropertyValue>
 			<PropertyValue name="Item8.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item8.ID">Microsoft.Office.Tools.Ribbon.RibbonGalleryImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item8.Name">Gallery</PropertyValue>
+			<PropertyValue name="Item8.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item8.Name">ButtonGroup</PropertyValue>
 			<PropertyValue name="Item8.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item8.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item8.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item8.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item8.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item8.RecordType">8</PropertyValue>
-			<PropertyValue name="Item8.Position">15</PropertyValue>
+			<PropertyValue name="Item8.Position">5</PropertyValue>
 			<PropertyValue name="Item9.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item9.ID">Microsoft.Office.Tools.Ribbon.RibbonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item9.Name">Group</PropertyValue>
+			<PropertyValue name="Item9.ID">Microsoft.Office.Tools.Ribbon.RibbonCheckBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item9.Name">CheckBox</PropertyValue>
 			<PropertyValue name="Item9.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item9.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item9.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item9.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item9.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item9.RecordType">8</PropertyValue>
-			<PropertyValue name="Item9.Position">17</PropertyValue>
+			<PropertyValue name="Item9.Position">7</PropertyValue>
 			<PropertyValue name="Item10.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item10.ID">Microsoft.Office.Tools.Ribbon.RibbonLabelImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item10.Name">Label</PropertyValue>
+			<PropertyValue name="Item10.ID">Microsoft.Office.Tools.Ribbon.RibbonComboBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item10.Name">ComboBox</PropertyValue>
 			<PropertyValue name="Item10.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item10.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item10.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item10.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item10.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item10.RecordType">8</PropertyValue>
-			<PropertyValue name="Item10.Position">19</PropertyValue>
+			<PropertyValue name="Item10.Position">9</PropertyValue>
 			<PropertyValue name="Item11.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item11.ID">Microsoft.Office.Tools.Ribbon.RibbonMenuImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item11.Name">Menu</PropertyValue>
+			<PropertyValue name="Item11.ID">Microsoft.Office.Tools.Ribbon.RibbonDropDownImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item11.Name">DropDown</PropertyValue>
 			<PropertyValue name="Item11.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item11.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item11.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item11.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item11.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item11.RecordType">8</PropertyValue>
-			<PropertyValue name="Item11.Position">21</PropertyValue>
+			<PropertyValue name="Item11.Position">11</PropertyValue>
 			<PropertyValue name="Item12.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item12.ID">Microsoft.Office.Tools.Ribbon.RibbonSeparatorImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item12.Name">Separator</PropertyValue>
+			<PropertyValue name="Item12.ID">Microsoft.Office.Tools.Ribbon.RibbonEditBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item12.Name">EditBox</PropertyValue>
 			<PropertyValue name="Item12.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item12.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item12.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item12.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item12.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item12.RecordType">8</PropertyValue>
-			<PropertyValue name="Item12.Position">23</PropertyValue>
+			<PropertyValue name="Item12.Position">13</PropertyValue>
 			<PropertyValue name="Item13.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item13.ID">Microsoft.Office.Tools.Ribbon.RibbonSplitButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item13.Name">SplitButton</PropertyValue>
+			<PropertyValue name="Item13.ID">Microsoft.Office.Tools.Ribbon.RibbonGalleryImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item13.Name">Gallery</PropertyValue>
 			<PropertyValue name="Item13.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item13.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item13.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item13.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item13.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item13.RecordType">8</PropertyValue>
-			<PropertyValue name="Item13.Position">25</PropertyValue>
+			<PropertyValue name="Item13.Position">15</PropertyValue>
 			<PropertyValue name="Item14.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item14.ID">Microsoft.Office.Tools.Ribbon.RibbonTabImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item14.Name">Tab</PropertyValue>
+			<PropertyValue name="Item14.ID">Microsoft.Office.Tools.Ribbon.RibbonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item14.Name">Group</PropertyValue>
 			<PropertyValue name="Item14.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item14.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item14.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item14.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item14.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item14.RecordType">8</PropertyValue>
-			<PropertyValue name="Item14.Position">27</PropertyValue>
+			<PropertyValue name="Item14.Position">17</PropertyValue>
 			<PropertyValue name="Item15.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item15.ID">Microsoft.Office.Tools.Ribbon.RibbonToggleButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
-			<PropertyValue name="Item15.Name">ToggleButton</PropertyValue>
+			<PropertyValue name="Item15.ID">Microsoft.Office.Tools.Ribbon.RibbonLabelImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item15.Name">Label</PropertyValue>
 			<PropertyValue name="Item15.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item15.Tab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item15.TabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item15.OriginalTabID">MSVSTORibbonV10</PropertyValue>
 			<PropertyValue name="Item15.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item15.RecordType">8</PropertyValue>
-			<PropertyValue name="Item15.Position">29</PropertyValue>
+			<PropertyValue name="Item15.Position">19</PropertyValue>
 			<PropertyValue name="Item16.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item16.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.LineToolboxItem</PropertyValue>
-			<PropertyValue name="Item16.Name">Line</PropertyValue>
+			<PropertyValue name="Item16.ID">Microsoft.Office.Tools.Ribbon.RibbonMenuImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item16.Name">Menu</PropertyValue>
 			<PropertyValue name="Item16.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item16.Tab">Simple Shapes</PropertyValue>
-			<PropertyValue name="Item16.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item16.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item16.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item16.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item16.TabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item16.OriginalTabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item16.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item16.RecordType">8</PropertyValue>
-			<PropertyValue name="Item16.Position">1</PropertyValue>
+			<PropertyValue name="Item16.Position">21</PropertyValue>
 			<PropertyValue name="Item17.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item17.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.LineToolboxItem</PropertyValue>
-			<PropertyValue name="Item17.Name">Line</PropertyValue>
+			<PropertyValue name="Item17.ID">Microsoft.Office.Tools.Ribbon.RibbonSeparatorImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item17.Name">Separator</PropertyValue>
 			<PropertyValue name="Item17.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item17.Tab">Simple Shapes</PropertyValue>
-			<PropertyValue name="Item17.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item17.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item17.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item17.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item17.TabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item17.OriginalTabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item17.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item17.RecordType">8</PropertyValue>
-			<PropertyValue name="Item17.Position">2</PropertyValue>
+			<PropertyValue name="Item17.Position">23</PropertyValue>
 			<PropertyValue name="Item18.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item18.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.EllipseToolboxItem</PropertyValue>
-			<PropertyValue name="Item18.Name">Ellipse</PropertyValue>
+			<PropertyValue name="Item18.ID">Microsoft.Office.Tools.Ribbon.RibbonSplitButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item18.Name">SplitButton</PropertyValue>
 			<PropertyValue name="Item18.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item18.Tab">Simple Shapes</PropertyValue>
-			<PropertyValue name="Item18.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item18.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item18.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item18.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item18.TabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item18.OriginalTabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item18.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item18.RecordType">8</PropertyValue>
-			<PropertyValue name="Item18.Position">4</PropertyValue>
+			<PropertyValue name="Item18.Position">25</PropertyValue>
 			<PropertyValue name="Item19.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item19.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.EllipseToolboxItem</PropertyValue>
-			<PropertyValue name="Item19.Name">Ellipse</PropertyValue>
+			<PropertyValue name="Item19.ID">Microsoft.Office.Tools.Ribbon.RibbonTabImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item19.Name">Tab</PropertyValue>
 			<PropertyValue name="Item19.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item19.Tab">Simple Shapes</PropertyValue>
-			<PropertyValue name="Item19.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item19.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item19.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item19.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item19.TabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item19.OriginalTabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item19.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item19.RecordType">8</PropertyValue>
-			<PropertyValue name="Item19.Position">5</PropertyValue>
+			<PropertyValue name="Item19.Position">27</PropertyValue>
 			<PropertyValue name="Item20.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item20.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.RectangleToolboxItem</PropertyValue>
-			<PropertyValue name="Item20.Name">Rectangle</PropertyValue>
+			<PropertyValue name="Item20.ID">Microsoft.Office.Tools.Ribbon.RibbonToggleButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item20.Name">ToggleButton</PropertyValue>
 			<PropertyValue name="Item20.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item20.Tab">Simple Shapes</PropertyValue>
-			<PropertyValue name="Item20.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item20.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
-			<PropertyValue name="Item20.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item20.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item20.TabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item20.OriginalTabID">MSVSTORibbonV10</PropertyValue>
+			<PropertyValue name="Item20.OriginalTab">Office Ribbon Controls</PropertyValue>
 			<PropertyValue name="Item20.RecordType">8</PropertyValue>
-			<PropertyValue name="Item20.Position">7</PropertyValue>
+			<PropertyValue name="Item20.Position">29</PropertyValue>
 			<PropertyValue name="Item21.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item21.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.RectangleToolboxItem</PropertyValue>
-			<PropertyValue name="Item21.Name">Rectangle</PropertyValue>
+			<PropertyValue name="Item21.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.LineToolboxItem</PropertyValue>
+			<PropertyValue name="Item21.Name">Line</PropertyValue>
 			<PropertyValue name="Item21.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item21.Tab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item21.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item21.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item21.OriginalTab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item21.RecordType">8</PropertyValue>
-			<PropertyValue name="Item21.Position">8</PropertyValue>
+			<PropertyValue name="Item21.Position">1</PropertyValue>
 			<PropertyValue name="Item22.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item22.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.SimpleCommentToolboxItem</PropertyValue>
-			<PropertyValue name="Item22.Name">Comment</PropertyValue>
+			<PropertyValue name="Item22.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.LineToolboxItem</PropertyValue>
+			<PropertyValue name="Item22.Name">Line</PropertyValue>
 			<PropertyValue name="Item22.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item22.Tab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item22.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item22.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item22.OriginalTab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item22.RecordType">8</PropertyValue>
-			<PropertyValue name="Item22.Position">10</PropertyValue>
+			<PropertyValue name="Item22.Position">2</PropertyValue>
 			<PropertyValue name="Item23.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="Item23.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.SimpleCommentToolboxItem</PropertyValue>
-			<PropertyValue name="Item23.Name">Comment</PropertyValue>
+			<PropertyValue name="Item23.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.EllipseToolboxItem</PropertyValue>
+			<PropertyValue name="Item23.Name">Ellipse</PropertyValue>
 			<PropertyValue name="Item23.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Item23.Tab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item23.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item23.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
 			<PropertyValue name="Item23.OriginalTab">Simple Shapes</PropertyValue>
 			<PropertyValue name="Item23.RecordType">8</PropertyValue>
-			<PropertyValue name="Item23.Position">11</PropertyValue>
-			<PropertyValue name="Item24.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item24.Name">ListView</PropertyValue>
+			<PropertyValue name="Item23.Position">4</PropertyValue>
+			<PropertyValue name="Item24.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item24.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.EllipseToolboxItem</PropertyValue>
+			<PropertyValue name="Item24.Name">Ellipse</PropertyValue>
 			<PropertyValue name="Item24.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item24.Tab">Data </PropertyValue>
-			<PropertyValue name="Item24.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item24.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item24.OriginalTab">Data </PropertyValue>
-			<PropertyValue name="Item24.RecordType">1</PropertyValue>
-			<PropertyValue name="Item24.Position">14</PropertyValue>
-			<PropertyValue name="Item25.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item25.Name">DataPager</PropertyValue>
+			<PropertyValue name="Item24.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item24.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item24.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item24.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item24.RecordType">8</PropertyValue>
+			<PropertyValue name="Item24.Position">5</PropertyValue>
+			<PropertyValue name="Item25.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item25.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.RectangleToolboxItem</PropertyValue>
+			<PropertyValue name="Item25.Name">Rectangle</PropertyValue>
 			<PropertyValue name="Item25.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item25.Tab">Data </PropertyValue>
-			<PropertyValue name="Item25.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item25.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item25.OriginalTab">Data </PropertyValue>
-			<PropertyValue name="Item25.RecordType">1</PropertyValue>
-			<PropertyValue name="Item25.Position">15</PropertyValue>
-			<PropertyValue name="Item26.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item26.Name">LinqDataSource</PropertyValue>
+			<PropertyValue name="Item25.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item25.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item25.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item25.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item25.RecordType">8</PropertyValue>
+			<PropertyValue name="Item25.Position">7</PropertyValue>
+			<PropertyValue name="Item26.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item26.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.RectangleToolboxItem</PropertyValue>
+			<PropertyValue name="Item26.Name">Rectangle</PropertyValue>
 			<PropertyValue name="Item26.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item26.Tab">Data </PropertyValue>
-			<PropertyValue name="Item26.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item26.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
-			<PropertyValue name="Item26.OriginalTab">Data </PropertyValue>
-			<PropertyValue name="Item26.RecordType">1</PropertyValue>
-			<PropertyValue name="Item26.Position">16</PropertyValue>
-			<PropertyValue name="Item27.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item27.Name">ScriptManager</PropertyValue>
+			<PropertyValue name="Item26.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item26.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item26.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item26.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item26.RecordType">8</PropertyValue>
+			<PropertyValue name="Item26.Position">8</PropertyValue>
+			<PropertyValue name="Item27.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item27.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.SimpleCommentToolboxItem</PropertyValue>
+			<PropertyValue name="Item27.Name">Comment</PropertyValue>
 			<PropertyValue name="Item27.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item27.Tab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item27.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item27.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item27.OriginalTab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item27.RecordType">1</PropertyValue>
-			<PropertyValue name="Item27.Position">1</PropertyValue>
-			<PropertyValue name="Item28.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item28.Name">ScriptManagerProxy</PropertyValue>
+			<PropertyValue name="Item27.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item27.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item27.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item27.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item27.RecordType">8</PropertyValue>
+			<PropertyValue name="Item27.Position">10</PropertyValue>
+			<PropertyValue name="Item28.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item28.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.SimpleCommentToolboxItem</PropertyValue>
+			<PropertyValue name="Item28.Name">Comment</PropertyValue>
 			<PropertyValue name="Item28.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item28.Tab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item28.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item28.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item28.OriginalTab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item28.RecordType">1</PropertyValue>
-			<PropertyValue name="Item28.Position">2</PropertyValue>
+			<PropertyValue name="Item28.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item28.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item28.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item28.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item28.RecordType">8</PropertyValue>
+			<PropertyValue name="Item28.Position">11</PropertyValue>
 			<PropertyValue name="Item29.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item29.Name">Timer</PropertyValue>
+			<PropertyValue name="Item29.Name">ListView</PropertyValue>
 			<PropertyValue name="Item29.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item29.Tab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item29.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item29.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item29.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item29.Tab">Data </PropertyValue>
+			<PropertyValue name="Item29.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item29.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item29.OriginalTab">Data </PropertyValue>
 			<PropertyValue name="Item29.RecordType">1</PropertyValue>
-			<PropertyValue name="Item29.Position">3</PropertyValue>
+			<PropertyValue name="Item29.Position">14</PropertyValue>
 			<PropertyValue name="Item30.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item30.Name">UpdatePanel</PropertyValue>
+			<PropertyValue name="Item30.Name">DataPager</PropertyValue>
 			<PropertyValue name="Item30.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item30.Tab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item30.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item30.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item30.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item30.Tab">Data </PropertyValue>
+			<PropertyValue name="Item30.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item30.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item30.OriginalTab">Data </PropertyValue>
 			<PropertyValue name="Item30.RecordType">1</PropertyValue>
-			<PropertyValue name="Item30.Position">4</PropertyValue>
+			<PropertyValue name="Item30.Position">15</PropertyValue>
 			<PropertyValue name="Item31.DataProvider">{9E1D3D00-FAA7-4690-97D1-03FAD4AE9BF8}</PropertyValue>
-			<PropertyValue name="Item31.Name">UpdateProgress</PropertyValue>
+			<PropertyValue name="Item31.Name">LinqDataSource</PropertyValue>
 			<PropertyValue name="Item31.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Item31.Tab">AJAX Extensions</PropertyValue>
-			<PropertyValue name="Item31.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item31.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Item31.OriginalTab">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Item31.Tab">Data </PropertyValue>
+			<PropertyValue name="Item31.TabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item31.OriginalTabID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Item31.OriginalTab">Data </PropertyValue>
 			<PropertyValue name="Item31.RecordType">1</PropertyValue>
-			<PropertyValue name="Item31.Position">5</PropertyValue>
+			<PropertyValue name="Item31.Position">16</PropertyValue>
 			<PropertyValue name="ItemCount">32</PropertyValue>
 		</Category>
 		<Category name="Environment_WindowLayout" Category="{eb4ba109-a9db-4445-bd09-e7604bcdce84}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_WindowLayout" PackageName="Visual Studio Environment Package">
@@ -1931,7 +1974,7 @@
 													</TabGroup>
 												</DockGroup>
 												<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
-													<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document">
+													<DocumentGroupContainer IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document">
 														<DocumentGroup DockedHeight="284.729691970488" DockedWidth="308.036673861835">
 															<wm:ToolWindowView ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" DockedHeight="284.729691970488" DockedWidth="308.036673861835" FloatingHeight="614.4" FloatingWidth="819.2"/>
 															<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" DockedHeight="284.729691970488" DockedWidth="308.036673861835" FloatingHeight="614.4" FloatingWidth="819.2"/>
@@ -2293,7 +2336,7 @@
 													<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="16" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}" IsSelected="True" IsVisible="True" DockedHeight="184.681498559078" DockedWidth="653" FloatingTop="504" FloatingLeft="-1829" FloatingWidth="820"/>
 												</TabGroup>
 											</DockGroup>
-											<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
+											<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document">
 												<DocumentGroup>
 													<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" FloatingHeight="614.4" FloatingWidth="819.2"/>
 													<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" FloatingHeight="614.4" FloatingWidth="819.2"/>
@@ -2481,7 +2524,7 @@
 										</TabGroup>
 									</DockGroup>
 									<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
-										<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
+										<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document">
 											<DocumentGroup DockedHeight="284.729691970488" DockedWidth="308.036673861835">
 												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" DockedHeight="284.729691970488" DockedWidth="308.036673861835" FloatingHeight="614.4" FloatingWidth="819.2"/>
 												<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" DockedHeight="284.729691970488" DockedWidth="308.036673861835" FloatingHeight="614.4" FloatingWidth="819.2"/>
@@ -2717,7 +2760,7 @@
 											</TabGroup>
 										</DockGroup>
 										<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
-											<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
+											<DocumentGroupContainer Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document">
 												<DocumentGroup DockedHeight="213.482879618205" DockedWidth="268.678147907767">
 													<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" DockedHeight="213.482879618205" DockedWidth="268.678147907767" FloatingHeight="614.4" FloatingWidth="819.2"/>
 													<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" DockedHeight="213.482879618205" DockedWidth="268.678147907767" FloatingHeight="614.4" FloatingWidth="819.2"/>
@@ -2910,116 +2953,8 @@
 				</WindowProfile>
 			</Design-FullScreen>
 		</Category>
-		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
-			<PropertyValue name="Version">2</PropertyValue>
-			<FontsAndColors Version="2.0">
-				<Categories>
-					<Category GUID="{40660F54-80FA-4375-89A3-8D06AA954EBA}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{5C48B2CB-0366-4FBF-9786-0BB37E945687}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-							<Item Name="Current List Location" Foreground="0x00A3DBFF" Background="0x01000007" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-							<Item Name="Current List Location" Foreground="0x00A3DBFF" Background="0x01000007" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{9E632E6E-D786-4F9A-8D3E-B9398836C784}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontIsDefault="Yes">
-						<Items>
-							<Item Name="Selected Text" Foreground="0x00000000" Background="0x0003E48A" BoldFont="No"/>
-							<Item Name="Line Numbers" Foreground="0x00FFFFFF" Background="0x00808080" BoldFont="No"/>
-							<Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x00CCE0DB" BoldFont="Yes"/>
-							<Item Name="Identifier" Foreground="0x00000080" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Keyword" Foreground="0x00800000" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Number" Foreground="0x02000000" Background="0x00FFFFE6" BoldFont="No"/>
-							<Item Name="String" Foreground="0x00808000" Background="0x02000000" BoldFont="No"/>
-							<Item Name="User Types" Foreground="0x000053A6" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Warning" Foreground="0x000080FF" Background="0x02000000" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{A9A5637F-B2A8-422E-8FB5-DFB4625F0111}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items/>
-					</Category>
-					<Category GUID="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items/>
-					</Category>
-					<Category GUID="{CE2ECED5-C21C-464C-9B45-15E10E9F9EF9}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" FontName="ProggyTiny" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x0000FF00" Background="0x00003700" BoldFont="No"/>
-							<Item Name="Selected Text" Foreground="0x00003700" Background="0x0000FF00" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x00003700" Background="0x00009100" BoldFont="No"/>
-						</Items>
-					</Category>
-					<Category GUID="{F7B7B222-E186-48DF-A5EE-174E8129891B}" FontName="Tahoma" FontSize="8" CharSet="0" FontIsDefault="No">
-						<Items/>
-					</Category>
-				</Categories>
-			</FontsAndColors>
-		</Category>
 	</Category>
-	<Category name="Performance" Category="{7A697B67-8D8F-43c2-A11C-57568FE3F513}" Package="{f4a63b2a-49ab-4b2d-aa59-a10f01026c89}" RegisteredName="Performance" PackageName="PerformancePackage">
-		<PropertyValue name="toolsoptions.numfunc">5</PropertyValue>
-		<PropertyValue name="toolsoptions.showtimetick">0</PropertyValue>
-		<PropertyValue name="toolsoptions.numbuffer">64</PropertyValue>
-		<PropertyValue name="toolsoptions.sizebuffer">64</PropertyValue>
-		<PropertyValue name="toolsoptions.serialize">1</PropertyValue>
-		<PropertyValue name="performancereport.showquery">0</PropertyValue>
-		<PropertyValue name="toolsoptions.formatcounters">1</PropertyValue>
-		<PropertyValue name="toolsoptions.exportpath"/>
-		<PropertyValue name="toolsoptions.exportformat">csv</PropertyValue>
-		<PropertyValue name="performancereport.hotpathcandidateratio">3.0</PropertyValue>
-		<PropertyValue name="performancereport.shownoisereductionwarning">1</PropertyValue>
-		<PropertyValue name="performancereport.noisereductiontrim">0</PropertyValue>
-		<PropertyValue name="performancereport.noisereductionfold">0</PropertyValue>
-		<PropertyValue name="performancereport.noisereductiontrimthreshold">2.0</PropertyValue>
-		<PropertyValue name="performancereport.noisereductionfoldthreshold">3.0</PropertyValue>
-		<PropertyValue name="tools.options.justmycode">1</PropertyValue>
-		<PropertyValue name="tools.options.justmycode.callee">1</PropertyValue>
-		<PropertyValue name="tools.options.justmycode.caller">0</PropertyValue>
-		<PropertyValue name="tools.options.rules.actions"/>
-	</Category>
-	<Category name="Test Tools_Web Test" Category="{9DE2E186-C1A8-4BEE-B5D6-2BC59BBE140B}" Package="{a9405ae6-9ac6-4f0e-a03f-7afe45f6fcb7}" RegisteredName="Test Tools_Web Test" PackageName="Microsoft.VisualStudio.TestTools.TestCaseManagement.QualityToolsPackage, Microsoft.VisualStudio.QualityTools.TestCaseManagement, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-		<PropertyValue name="AttemptDependentMatching">True</PropertyValue>
-		<PropertyValue name="BinaryHttpBodyContentTypes">application/soap+msbin1</PropertyValue>
-		<PropertyValue name="DetectDynamicParameters">True</PropertyValue>
-		<PropertyValue name="ExtractBindHiddenFields">True</PropertyValue>
-		<PropertyValue name="RecordFromMultipleBrowsers">True</PropertyValue>
-		<PropertyValue name="StartingURL">about:blank</PropertyValue>
-	</Category>
+	<Category name="Code Analysis" Category="{533A534C-AD06-4B18-BBBC-BFD7C74F58CE}" Package="{72391CE3-743A-4a55-8927-4217541F6517}" RegisteredName="Code Analysis" PackageName="StanPackage"/>
 	<Category name="Debugger" Category="{EEDBF29A-5C8B-4E01-827C-263382C18CFE}" Package="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}" RegisteredName="Debugger" PackageName="Visual Studio Debugger">
 		<PropertyValue name="ConfirmDeleteAllBreakpoints">1</PropertyValue>
 		<PropertyValue name="StopAllProcesses">1</PropertyValue>
@@ -3376,6 +3311,27 @@
 	&lt;Category id="My Custom Tags"&gt;&lt;Element id="p" ClosingTag="2" LineBreaks="4" IndentContents="1" Outlining="1" OutliningMinLines="3"/&gt;&lt;Element id="h1" ClosingTag="2" LineBreaks="1" IndentContents="1" Outlining="0" OutliningMinLines="0"/&gt;&lt;Element id="h2" ClosingTag="2" LineBreaks="1" IndentContents="1" Outlining="0" OutliningMinLines="0"/&gt;&lt;Element id="h3" ClosingTag="2" LineBreaks="1" IndentContents="1" Outlining="0"/&gt;&lt;Element id="h4" ClosingTag="2" LineBreaks="1" IndentContents="1" Outlining="0"/&gt;&lt;/Category&gt;&lt;/VWDFormatOptions&gt;
 </PropertyValue>
 	</Category>
+	<Category name="Performance" Category="{7A697B67-8D8F-43c2-A11C-57568FE3F513}" Package="{f4a63b2a-49ab-4b2d-aa59-a10f01026c89}" RegisteredName="Performance" PackageName="PerformancePackage">
+		<PropertyValue name="toolsoptions.numfunc">5</PropertyValue>
+		<PropertyValue name="toolsoptions.showtimetick">0</PropertyValue>
+		<PropertyValue name="toolsoptions.numbuffer">64</PropertyValue>
+		<PropertyValue name="toolsoptions.sizebuffer">64</PropertyValue>
+		<PropertyValue name="toolsoptions.serialize">1</PropertyValue>
+		<PropertyValue name="performancereport.showquery">0</PropertyValue>
+		<PropertyValue name="toolsoptions.formatcounters">1</PropertyValue>
+		<PropertyValue name="toolsoptions.exportpath"/>
+		<PropertyValue name="toolsoptions.exportformat">csv</PropertyValue>
+		<PropertyValue name="performancereport.hotpathcandidateratio">3.0</PropertyValue>
+		<PropertyValue name="performancereport.shownoisereductionwarning">1</PropertyValue>
+		<PropertyValue name="performancereport.noisereductiontrim">0</PropertyValue>
+		<PropertyValue name="performancereport.noisereductionfold">0</PropertyValue>
+		<PropertyValue name="performancereport.noisereductiontrimthreshold">2.0</PropertyValue>
+		<PropertyValue name="performancereport.noisereductionfoldthreshold">3.0</PropertyValue>
+		<PropertyValue name="tools.options.justmycode">1</PropertyValue>
+		<PropertyValue name="tools.options.justmycode.callee">1</PropertyValue>
+		<PropertyValue name="tools.options.justmycode.caller">0</PropertyValue>
+		<PropertyValue name="tools.options.rules.actions"/>
+	</Category>
 	<Category name="SQL_Editor" Category="{7d092b67-f9b8-4de4-a60e-298bada6f735}" Package="{cd5a6b66-0d89-4949-b356-361cf0d74372}" RegisteredName="SQL_Editor" PackageName="RadLangSvc.Package, RadLangSvc.VS, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
 		<PropertyValue name="AutoOutlining">True</PropertyValue>
 		<PropertyValue name="EnableIntellisense">True</PropertyValue>
@@ -3405,6 +3361,14 @@
 		<PropertyValue name="OpenSceToMostRecentPath">true</PropertyValue>
 		<PropertyValue name="PromptToConfirmMergeResult">-1</PropertyValue>
 	</Category>
+	<Category name="Test Tools_Web Test" Category="{9DE2E186-C1A8-4BEE-B5D6-2BC59BBE140B}" Package="{a9405ae6-9ac6-4f0e-a03f-7afe45f6fcb7}" RegisteredName="Test Tools_Web Test" PackageName="Microsoft.VisualStudio.TestTools.TestCaseManagement.QualityToolsPackage, Microsoft.VisualStudio.QualityTools.TestCaseManagement, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<PropertyValue name="AttemptDependentMatching">True</PropertyValue>
+		<PropertyValue name="BinaryHttpBodyContentTypes">application/soap+msbin1</PropertyValue>
+		<PropertyValue name="DetectDynamicParameters">True</PropertyValue>
+		<PropertyValue name="ExtractBindHiddenFields">True</PropertyValue>
+		<PropertyValue name="RecordFromMultipleBrowsers">True</PropertyValue>
+		<PropertyValue name="StartingURL">about:blank</PropertyValue>
+	</Category>
 	<Category name="WindowsFormsDesigner_General" Category="{de03177c-918d-40af-8c17-c9d63670c175}" Package="{7b5d447b-0b12-41ea-a84e-c822034422d4}" RegisteredName="WindowsFormsDesigner_General" PackageName="Windows Forms Designer Resources Package">
 		<PropertyValue name="AutoToolboxPopulate">False</PropertyValue>
 		<PropertyValue name="EnableInSituEditing">True</PropertyValue>
@@ -3428,10 +3392,5 @@
 		<PropertyValue name="AutoReformatOnPaste">True</PropertyValue>
 		<PropertyValue name="FormatMixedContentByDefault">True</PropertyValue>
 		<PropertyValue name="SchemaCacheLocation">%VsInstallDir%\xml\Schemas</PropertyValue>
-	</Category>
-	<Category name="SpecFlow_General" Category="{d41b81c9-8501-4124-b75f-0f194e37178c}" Package="{5d978b7f-8f91-41c1-b7ba-0b4c056118e8}" RegisteredName="SpecFlow_General" PackageName="TechTalk.SpecFlow.Vs2010Integration.SpecFlowPackagePackage, TechTalk.SpecFlow.Vs2010Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-		<PropertyValue name="EnableIntelliSense">False</PropertyValue>
-		<PropertyValue name="EnableOutlining">False</PropertyValue>
-		<PropertyValue name="EnableSyntaxColoring">True</PropertyValue>
 	</Category>
 </UserSettings>
